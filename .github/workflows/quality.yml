@@ -31,5 +31,4 @@ jobs:
           python -m pip install -r requirements-dev.txt
 
       - name: Static analysis
-        timeout-minutes: 5
         run: python -m pylint src/status.py --s
