@@ -4,4 +4,9 @@ site_author: "Стефанов Сергей Антонович"
 repo_name: SurgeTamer/devops-docs
 repo_url: https://github.com/SurgeTamer/devops-docs
 theme:
+  name: mkdocs
+  locale: ru
 nav:
+  - Главная: index.md
+  - Эксплуатация: runbook.md
+  - Журнал инцидентов: incidents.md
